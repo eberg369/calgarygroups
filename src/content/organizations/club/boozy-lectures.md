@@ -2,7 +2,7 @@
 layout: layouts/organization.njk
 name: "Boozy Lectures"
 type: Club
-interests: ["education", "culture and heritage"]
+interests: ["education", "culture-heritage"]
 age_range: "all-ages"
 identity_focused: true
 meeting_format: "in-person"
