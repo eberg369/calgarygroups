@@ -39,7 +39,7 @@ fi
 echo "Checking for duplicate organization files..."
 DUPLICATES=$(find src/content/organizations -name "*.md" -exec basename {} \; | sort | uniq -d)
 if [ -n "$DUPLICATES" ]; then
-    echo "❌ Found duplicate organization files:"
+    echo "❌ Found duplicate organization files (would create duplicate permalinks):"
     echo "$DUPLICATES"
     exit 1
 fi

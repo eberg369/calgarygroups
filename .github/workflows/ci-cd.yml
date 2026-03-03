@@ -90,10 +90,15 @@ jobs:
     - name: Check for duplicate permalinks
       run: |
         echo "Checking for duplicate organization permalinks..."
-        PERMALINKS=$(find src/content/organizations -name "*.md" -exec grep -l "permalink:" {} \; | xargs grep -h "permalink:" | sort | uniq -d)
-        if [ -n "$PERMALINKS" ]; then
-          echo "❌ Duplicate permalinks found:"
-          echo "$PERMALINKS"
+        # Check for duplicate filenames (which would create duplicate permalinks)
+        DUPLICATES=$(find src/content/organizations -name "*.md" -exec basename {} \; | sort | uniq -d)
+        if [ -n "$DUPLICATES" ]; then
+          echo "❌ Duplicate organization files found (would create duplicate permalinks):"
+          echo "$DUPLICATES"
+          find src/content/organizations -name "*.md" -exec basename {} \; | sort | uniq -d | while read file; do
+            echo "Locations of $file:"
+            find src/content/organizations -name "$file"
+          done
           exit 1
         else
           echo "✅ No duplicate permalinks found"
