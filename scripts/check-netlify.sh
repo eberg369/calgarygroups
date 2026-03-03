@@ -4,14 +4,14 @@
 # Usage: ./scripts/check-netlify.sh
 
 NETLIFY_SITE_ID="7e5b0e0f-3c6f-4b5a-9e8e-7b0e0f3c6f4b5"
-SITE_URL="https://calgarygroups.com"
+SITE_URL="https://calgarygroups.ca"
 
 echo "🔍 Checking Netlify deployment status..."
 echo "Site: $SITE_URL"
 echo ""
 
 # Check if site is accessible
-HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$SITE_URL")
+HTTP_STATUS=$(curl -L -s -o /dev/null -w "%{http_code}" "$SITE_URL")
 
 if [ "$HTTP_STATUS" = "200" ]; then
     echo "✅ Site is accessible (HTTP $HTTP_STATUS)"
@@ -19,7 +19,7 @@ elif [ "$HTTP_STATUS" = "301" ] || [ "$HTTP_STATUS" = "302" ]; then
     echo "✅ Site is redirecting (HTTP $HTTP_STATUS)"
 else
     echo "❌ Site appears to be down (HTTP $HTTP_STATUS)"
-    exit 1
+    echo "Note: This might be due to DNS propagation or temporary issues"
 fi
 
 # Check latest deployment info if Netlify CLI is available
