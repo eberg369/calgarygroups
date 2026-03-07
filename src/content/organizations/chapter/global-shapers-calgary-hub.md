@@ -20,7 +20,6 @@ A network of young people driving dialogue, action, and change to address local 
   <strong>Contact Info:</strong>
   <ul class="list-none pl-0">
     <li>Website: <a href="https://sites.google.com/d/1QeVC260ymz8qx9a5nUqXg7iJoLWBojGG/p/1C8UEwCrQ9Ks-ksEMBCNJZrS4oheqRojH/edit" target="_blank">https://sites.google.com/d/1QeVC260ymz8qx9a5nUqXg7iJoLWBojGG/p/1C8UEwCrQ9Ks-ksEMBCNJZrS4oheqRojH/edit</a></li>
-    <li>Email: <a href="mailto:obikweluchimdi@gmail.com">obikweluchimdi@gmail.com</a></li>
   </ul>
 </div>
 
