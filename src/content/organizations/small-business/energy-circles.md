@@ -11,7 +11,7 @@ status: "active"
 permalink: "/organizations/{{ page.fileSlug }}/"
 
 
-description: "\"At Energy Circles, we’re not just imagining better — we’re building it. Our group of dedicated professionals is committed to driving the energy transition from every possible angle. Whether you’re an engineer, policy maker, researcher, or advocate, there’s a place for you in our circle.\" 
+description: "At Energy Circles, we're not just imagining better — we're building it. Our group of dedicated professionals is committed to driving the energy transition from every possible angle. Whether you're an engineer, policy maker, researcher, or advocate, there's a place for you in our circle." 
 ---
 
 At Energy Circles, we’re not just imagining better — we’re building it. Our group of dedicated professionals is committed to driving the energy transition from every possible angle. Whether you’re an engineer, policy maker, researcher, or advocate, there’s a place for you in our circle.
