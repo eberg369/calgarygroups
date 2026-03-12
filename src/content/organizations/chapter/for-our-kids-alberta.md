@@ -25,7 +25,7 @@ They also have local groups. The Calgary group is open to  grandparents/great au
   <ul class="list-none pl-0">
     <li>Website: <a href="https://www.forourkids.ca/alberta" target="_blank">https://www.forourkids.ca/alberta</a></li>
     <li>Email: <a href="mailto:hello@forourkids.ca">hello@forourkids.ca</a></li>
-    <li>Website: <a href=" https://www.forourkids.ca/eco_elders" target="_blank"> https://www.forourkids.ca/eco_elders</a></li>
-    <li>Email: <a href="ecoeldersyyc@gmail.com">ecoeldersyyc@gmail.com</a></li>
+    <li>Website: <a href="https://www.forourkids.ca/eco_elders" target="_blank"> https://www.forourkids.ca/eco_elders</a></li>
+    <li>Email: <a href="mailto:ecoeldersyyc@gmail.com">ecoeldersyyc@gmail.com</a></li>
   </ul>
-</div>"
+</div>
