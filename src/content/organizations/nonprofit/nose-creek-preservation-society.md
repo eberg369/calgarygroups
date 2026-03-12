@@ -1,6 +1,6 @@
 ---
 layout: layouts/organization.njk
-name: "For Our Kids Alberta"
+name: "Nose Creek Preservation Society"
 type: Nonprofit
 interests: ["environment"]
 age_range: "all-ages"
@@ -11,10 +11,10 @@ status: "active"
 permalink: "/organizations/{{ page.fileSlug }}/"
 
 
-description: "\"The Nose Creek Preservation Society exists because of the voices from the communities surrounding the Nose Creek Valley. Coalescing into an organization striving to 'Speak for Nose Creek' to preserve and protect the watershed, biodiversity of the area, and equity access to nature for the surrounding communities.\""
+description: "The Nose Creek Preservation Society exists because of the voices from the communities surrounding the Nose Creek Valley. Coalescing into an organization striving to 'Speak for Nose Creek' to preserve and protect the watershed, biodiversity of the area, and equity access to nature for the surrounding communities."
 ---
 
-"The Nose Creek Preservation Society exists because of the voices from the communities surrounding the Nose Creek Valley. Coalescing into an organization striving to 'Speak for Nose Creek' to preserve and protect the watershed, biodiversity of the area, and equity access to nature for the surrounding communities."
+The Nose Creek Preservation Society exists because of the voices from the communities surrounding the Nose Creek Valley. Coalescing into an organization striving to 'Speak for Nose Creek' to preserve and protect the watershed, biodiversity of the area, and equity access to nature for the surrounding communities.
 
 Membership is $20 annually.
 
