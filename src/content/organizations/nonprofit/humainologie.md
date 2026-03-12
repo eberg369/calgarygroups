@@ -9,10 +9,10 @@ meeting_format: "in-person"
 location_area: "city-wide"
 status: "active"
 permalink: /organizations/{{ page.fileSlug }}/
-description: Also known as the Calgary Centre for Global Community, Humainologie centres people who have experienced systemic barriers, especially racialized folks, sharing their stories through film. They also host and support community events. 
+description: "Also known as the Calgary Centre for Global Community, Humainologie centres people who have experienced systemic barriers, especially racialized folks, sharing their stories through film. They also host and support community events." 
 ---
 
-Also known as the Calgary Centre for Global Community, Humainologie centres people who have experienced systemic barriers, especially racialized folks, sharing their stories through film. They also host and support community events. 
+Also known as the Calgary Centre for Global Community, Humainologie centres people who have experienced systemic barriers, especially racialized folks, sharing their stories through film. They also host and support community events.
 
 <div class="org-contact-info">
   <strong>Contact Info:</strong>
